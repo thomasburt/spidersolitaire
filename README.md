@@ -1,2 +1,2 @@
 # spidersolitaire
-The game Spider Solitaire as created by me with AI assistance. 
+The game Spider Solitaire as created by Thomas Burt with AI assistance.
