@@ -17,3 +17,9 @@ class Column(object):
     
     def check_king_to_ace(self):
         pass
+
+    def can_move_stack(self):
+        return True
+
+    def can_drop_stack(self):
+        return True

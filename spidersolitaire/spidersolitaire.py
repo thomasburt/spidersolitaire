@@ -54,6 +54,8 @@ class SpiderSolitaire:
         for column in self.playarea:
             column.get_top_card().flip()
 
+        
+
     def boot(self):
         self.menu = pygame_menu.Menu('Welcome to Spider Solitaire', 400, 300, theme=pygame_menu.themes.THEME_BLUE)
         self.menu.add.selector('Difficulty: ', [('Easy', 1), ('Medium', 2), ('Hard', 3)], onchange=self.set_difficulty)
